@@ -1,0 +1,18 @@
+[alias]
+	ss=status
+	dd=diff
+	aa=add -A
+	lg=log
+	cm=commit -m
+	cma=commit -am
+	rb=rebase
+	rh=reset --hard
+	ch=checkout
+	cb=checkout -b
+	bb=branch
+	bd=branch -d
+	ps=push
+	pl=pull
+	st=stash
+	sp=stash pop
+	
