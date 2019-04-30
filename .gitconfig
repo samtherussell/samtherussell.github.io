@@ -10,9 +10,20 @@
 	ch=checkout
 	cb=checkout -b
 	bb=branch
-	bd=branch -d
+	del=branch -d
 	ps=push
 	pl=pull
 	st=stash
 	sp=stash pop
+	br=branch
+	cmam=commit -a --amend --no-edit
+	rbi= rebase -i
+	drop=reset --hard HEAD~1
 	
+[user]
+	name = srussell
+	email = samuel.russell@galatea-associates.com
+[credential]
+	helper = manager
+[merge]
+	conflictstyle = diff3
